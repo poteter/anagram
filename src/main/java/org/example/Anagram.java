@@ -8,6 +8,7 @@ public class Anagram {
     public String sortAnagramParameter(String anagram){
         char[] anagramArray = anagram.toCharArray();
         Arrays.sort(anagramArray);
+        System.out.println("wololo");
         return new String(anagramArray);
     }
 
