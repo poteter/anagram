@@ -8,9 +8,7 @@ public class Anagram {
     public String sortAnagramParameter(String anagram){
         char[] anagramArray = anagram.toCharArray();
         Arrays.sort(anagramArray);
-        String tempAnagram = new String(anagramArray);
-
-        return tempAnagram;
+        return new String(anagramArray);
     }
 
     public ArrayList<String> sortAndAlphabetizeAnagrams(ArrayList<String> anagrams){
