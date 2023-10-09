@@ -9,6 +9,7 @@ public class Anagram {
         char[] anagramArray = anagram.toCharArray();
         Arrays.sort(anagramArray);
         System.out.println("wololo");
+        System.out.println("second wololo");
         return new String(anagramArray);
     }
 
